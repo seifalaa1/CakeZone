@@ -1,0 +1,1012 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    scroll-behavior: smooth;
+}
+
+/* Start -> Contact Nav  */
+
+.contact-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 14.5vh;
+    background: rgb(250, 243, 235);
+}
+
+.email {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 200px;
+    margin-right: 100px;
+}
+
+.nav-icon {
+    margin-right: 10px;
+}
+
+.nav-icon i {
+    color: rgb(232, 143, 42);
+    font-size: 2em;
+}
+
+.email h3 {
+    text-align: left;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+.email p {
+    color: gray;
+    font-size: 1.07em;
+}
+
+.border-logo {
+    background-color: rgb(232, 143, 42);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    margin:10px;
+}
+
+.logo h1 {
+    padding: 10px 80px;
+    color: white;
+    font-weight: 900;
+    font-size: 2.2em;
+}
+
+.logo i {
+    margin-right: -70px;
+    margin-left: 110px;
+    color: rgb(43, 40, 37);
+    font-size: 2.5em;
+}
+
+.call {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 250px;
+    margin-left: 20px;
+}
+
+.call .nav-icon {
+    margin-right: -10px;
+}
+
+.call .nav-icon i {
+    margin-right: -10px;
+}
+
+.call .nav-text {
+    margin-right: 80px;
+}
+
+.call p {
+    color: gray;
+}
+
+/* End -> Contact Nav  */
+
+/* ======================================================= */
+
+/* Start -> NAV BAR  */
+
+nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    padding: 0.5em 0;
+    background: rgb(43, 40, 37);
+    z-index: 999;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+    transition: 0.4s;
+}
+
+nav a:hover {
+    color: rgb(232, 143, 42);
+}
+
+.home {
+    color: rgb(232, 143, 42);
+}
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+.dropdown-content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  z-index: 1;
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* End -> Nav Bar  */
+
+/*==========================================================*/
+
+/* Strat -> Main Section  */
+
+.main-section {
+    width: 100%;
+    height: 90vh;
+    background: url(img/hero.jpg) right top no-repeat;
+    background-size: cover;
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.text h3 {
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.4em;
+    color: rgb(232, 143, 42);
+}
+
+.text h1 {
+    padding: 20px 0;
+    font-size: 3.9em;
+    font-weight: 500;
+}
+
+.text h2 {
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.border-btn {
+    margin-top: 50px;
+    width: 170px;
+    height: 60px;
+    background: rgb(232, 143, 42);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.border-btn button {
+    cursor: pointer;
+    background: rgb(232, 143, 42);
+    border: 1px solid white;
+    padding: 10px 40px;
+    color: white;
+    font-weight: 700;
+    transition: 0.4s;
+}
+
+.border-ntb button:hover {
+    background-color: rgb(235, 160, 74);
+    color: black;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-top: 47px;
+    margin-right: 40px;
+}
+
+.play {
+    cursor: pointer;
+    margin-right: 10px;
+    width: 70px;
+    height: 70px;
+    background: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.play span {
+    display: block;
+    position: relative;
+    width: 0;
+    height: 0;
+    z-index: 3;
+    left: 25px;
+    border-left: 25px solid rgb(232, 143, 42);
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+}
+
+/* Endl -> Main Section  */
+
+/* ======================================================== */
+
+/* Start -> About Us Section */
+
+
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 60px;
+}
+
+.header h1:first-child {
+    font-size: 3em;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: rgb(232, 143, 42);
+}
+
+.header h1 {
+    font-size: 3em;
+    font-weight: 600;
+    color: rgb(43, 40, 37);
+}
+
+.header .span1 {
+    margin-top: 10px;
+    width: 200px;
+    border: 1px solid rgb(232, 143, 42);
+    display: flex;
+
+}
+
+.span2 {
+    height: 2px;
+    width: 60px;
+    margin: -6.5px;
+    border: 6px solid rgb(232, 143, 42);
+}
+
+
+#about-us {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+.about-text {
+    width: 50%;
+    margin-left: -50px;
+}
+
+.about-text h2 {
+    color: rgb(43, 40, 37);
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: -50px;
+}
+
+.about-text p {
+    margin: 15px 0;
+    color: gray;
+}
+
+.about-img {
+    width: 20%;
+}
+
+.about-img img {
+    width: 450px;
+}
+
+.about-icons {
+    display: flex;
+    align-items: center;
+    flex: wrap;
+}
+
+.first {
+    width: 80px;
+    background: rgb(232, 143, 42);
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.first i {
+    color: white;
+    border: 1px solid white;
+    padding: 15px;
+}
+
+.about-icons h1 {
+    font-size: 1.3em;
+    font-weight: 700;
+}
+
+.about-icons p {
+    font-size: 1.1em;
+    line-height: 25px;
+}
+
+.count {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(https://themewagon.github.io/cakezone/img/bg.jpg) center center no-repeat;
+    background-size: cover;
+    height: 40vh;
+    margin-top: -85px;
+
+}
+
+.count-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.count-icon .icon {
+    color: white;
+    background: rgb(232, 143, 42);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count-icon .icon i {
+    border: 1px solid white;
+    padding: 12px;
+}
+
+.count-text {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.count-icon h3 {
+    color: rgb(232, 143, 42);
+    padding-bottom: 20px;
+}
+
+.count-text h2 {
+    color: white;
+    font-size: 2.5em;
+}
+
+/* End -> About Section  */
+
+/*========================================================== */
+
+/* Start -> Menu & Princing Section */
+
+.selection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28%;
+    height: 90px;
+    margin: 50px auto;
+    background: rgb(43, 40, 37);
+}
+
+.choese {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 0.8em;
+    font-weight: 400;
+    border: 1px solid white;
+    padding: 15px 0px;
+
+}
+
+.choese a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 1.3em;
+    text-transform: uppercase;
+}
+
+.choese a:first-child {
+    background: rgb(232, 143, 42);
+}
+
+.cake-type {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: 0 auto 130px auto;
+}
+
+.cake-img {
+    display: flex;
+    justify-content: space-between;
+    width: 48%;
+    margin: 10px;
+}
+
+.cake-img .img img {
+    width: 150px;
+    height: 85;
+
+}
+
+.cake-img .img h3 {
+    text-align: center;
+    background: rgb(43, 40, 37);
+    color: rgb(232, 143, 42);
+    font-size: 1.6em;
+    padding: 5px;
+    margin-top: -5px;
+}
+
+.cake-info {
+    background: rgb(250, 243, 235);
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+
+.cake-text {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0 10px;
+    padding: 14px 10px;
+    border: 2px solid rgb(250, 250, 250);
+}
+
+.cake-text h3 {
+    margin-bottom: 10px;
+    text-transform: uppercase;
+
+}
+
+.cake-text p {
+    color: gray;
+}
+
+/* End -> Menu & Princing Section  */
+
+/* ======================================================= */
+
+/* Start -> Discount Section  */
+
+.discount {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto 0 auto;
+    flex-direction: column;
+    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(https://themewagon.github.io/cakezone/img/service.jpg) center center no-repeat;
+    background-size: cover;
+    height: 70vh;
+}
+
+.cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.info-cards {
+    height: 280px;
+    width: 350px;
+    margin: -300px 20px 0;
+    background: rgb(232, 143, 42);
+    display: flex;
+    align-items: center;
+            justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.border-cards {
+    margin: 30px 10px ;
+    border: 1px solid white;
+
+}
+
+.info-cards h2 {
+    color: rgb(43, 40, 37);
+    margin: 30px 0 -30px 0;
+    text-transform: uppercase;
+}
+
+.info-cards p {
+    color: white;
+    padding: 70px 45px;
+    font-size: 17px;
+}
+
+.info-cards a {
+    display: block;
+    text-decoration: none;
+    color: rgb(43, 40, 37);
+    margin: -50px 0 40px 0;
+}
+.dis-text{
+    margin-top: -150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.dis-text h1{
+    font-size: 2.5em;
+    margin-bottom:20px ;
+    color: white;
+    text-transform: uppercase;
+}
+.dis-text a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(232, 143, 42);
+    width: 180px;
+    height: 50px;
+    text-decoration: none;
+}
+.dis-text a button{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 0.9em;
+    padding: 8px 40px;
+    background-color: rgb(232, 143, 42);
+    border: 1px solid white;
+}
+.dis-text a:hover,dis-text a button:hover{
+    background: rgb(235, 160, 74);
+    color: rgb(43, 40, 37);
+}
+
+    /* End -> Discount section  */
+
+/* ==================================================== */
+
+    /* Start -> Chefs section */
+
+.chefs{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+}
+
+.chef-img{
+    position: relative;
+    width: 100%;
+    margin: 50px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.img-img{
+    overflow: hidden;
+}
+.chef-img img{
+    width:100%;
+    display: block;
+    transition: filter 0.3s ease;
+}
+.chef-icons{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    bottom:250px;
+}
+
+.chef-icons a{
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    background: rgb(232, 143, 42);
+    margin: 0 3px;
+    padding: 8px ;
+    transition: 0.4s;
+    display: none;
+
+}
+.chef-icons i{
+    border: 1px solid white;
+    padding: 5px 8px;
+    background: rgb(232, 143, 42);
+}
+.chef-img img:hover{
+    transition: 0.4s;
+    transform: scale(1.1);
+    overflow: hidden;
+}
+.chef-img:hover .chef-icons a{
+    display: block;
+}
+.chef-img:hover img,
+.chef-img a:hover ~ img {
+    transform: scale(1.1);
+    filter: blur(5px);
+}
+.chef-icons a:hover{
+    color: rgb(43, 40, 37);
+}
+.chef-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgb(43, 40, 37);
+    width: 100%;
+    height: 100px;
+    color: rgb(232, 143, 42);
+    text-align: center;
+}
+.chef-border{
+    outline: 1px solid white;
+    padding: 15px 120px;
+}
+.chef-border h1{
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+.chef-border h3{
+    font-size: 1em;
+    color: white;
+}
+
+    /* End -> Chef Section  */
+
+/* =================================================== */
+
+    /* Start -> Special Kombo  */
+
+.special-kombo{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(https://themewagon.github.io/cakezone/img/offer.jpg) center center no-repeat;
+
+}
+.special{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    flex-direction: column;
+    width: 80%;
+    text-align: center;
+}
+.p{
+    margin: 50px 0;
+    width: 50%;
+    font-size: 14.5px;
+    align-items: center;
+    color: white;
+    line-height: 25px;
+    font-weight: 500;
+}
+.special-btn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.special-btn .btn1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(232, 143, 42);
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+.btn1:hover{
+    background-color: rgb(235, 160, 74);
+    color: black;
+}
+.special-btn div{
+    outline: 1px solid white;
+    padding: 5px 20px;
+}
+.special-btn .btn2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(43, 40, 37);
+    width: 150px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+.btn2:hover{
+    background: black;
+    
+}
+    /* End -> Special kombo  */
+
+/* ============================================= */
+
+    /* Start -> Clients  */
+
+.clients{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 70px auto;
+}
+.client-border{
+width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(43, 40, 37);
+    height: 200px;
+    margin: 10px;
+}
+.clients-cards{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+    outline: 1px solid white;
+} 
+.client-img{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+}
+.client-img img{
+    width: 60px;
+    height: 60px;
+}
+.clients-text{
+    margin-left: 10px;
+}
+.clients-text h1{
+    margin-bottom: 10px;
+    font-size: 1.4em;
+    color: rgb(232, 143, 42);
+}
+.clients-text h3{
+    color: white;
+
+}
+.client-p{
+    color: white;
+    padding: 6px 15px;
+    line-height: 25px;
+}
+
+    /* End -> Client Section  */
+
+/* ============================================================ */
+
+    /* Start -> Footer Section  */
+
+.footer{
+    width: 100%;
+    height: 50vh;
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(https://themewagon.github.io/cakezone/img/bg.jpg) center center no-repeat;
+}
+.footer-conteiner{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.border-footer-card{
+    width:33%;
+    padding: 10px;
+    background: rgb(232, 143, 42);
+}
+.footer-card{
+    padding: 30px;
+    outline: 1px solid white;
+}
+.card-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    margin-bottom:10px;
+}
+.card-header h1{
+    font-size: 2.5em;
+    color: white;
+}
+.card-header i{
+    font-size: 2.5em;
+}
+.footer-card p{
+    color: white;
+    font-size: 1em;
+    line-height: 25px;
+    text-align: center;
+}
+.contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+.contact-info{
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.contact-info h2{
+    color: rgb(232, 143, 42);
+    margin-bottom: 20px;
+    margin-top: -65px;
+}
+.contact-icons{
+    display: flex;
+    gap: 15px;
+    margin-bottom:15px;
+}
+.contact-icons i{
+    color: rgb(232, 143, 42);
+}
+.contact-icons p{
+    font-size: 1.2em;
+    color: white;
+}
+.contact-icons2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    gap: 10px;
+    margin-left: -30px;
+}
+.contact-icons2 a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(232, 143, 42);
+    text-decoration: none;
+    color: white;
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    transition: 0.4s;
+}
+.contact-icons2 i{
+    outline: 1px solid white;
+    padding: 5px;
+}
+.contact-icons2 a:hover{
+    background-color: rgb(235, 160, 74);
+    color: black;
+}
+.quick-links{
+    margin-top: -30px;
+}
+.quick-links h2{
+    color: rgb(232, 143, 42);
+    margin-bottom: 10px;
+}
+.quick-icons{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+.quick-icons i{
+    color: rgb(232, 143, 42);
+}
+.quick-icons p{
+    color: white;
+}
+.news{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.news h2{
+    color: rgb(232, 143, 42);
+    margin-bottom: 10px;
+    margin-top: -110px;
+}
+.news p{
+    color: white;
+    margin-bottom:10px ;
+    line-height: 25px;
+
+}
+.email-input{
+    display: flex;
+}
+.email-input input{
+    padding: 10px;
+    width: 120px;
+    font-size: 1em;
+    height: 60px;
+}
+.email-input button{
+    width: 150px;
+    background: rgb(232, 143, 42);
+    border: none;
+    color: white;
+    transition: 0.4s;
+}
+.email-input button:hover{
+    background: rgb(235, 160, 74);
+    color: black;
+}
+.copy{
+    color: white;
+    background: rgb(17, 17, 17);
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 0.9em;
+}
+.copy h3{
+    margin: 15px;
+}
+.copy a{
+    color: white;
+}
